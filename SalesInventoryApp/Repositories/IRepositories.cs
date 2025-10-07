@@ -1,0 +1,1 @@
+using SalesInventoryApp.Models; using System.Collections.Generic; namespace SalesInventoryApp.Repositories { public interface IProductRepository { IEnumerable<Product> GetAll(); Product GetById(int id); void Add(Product p); void Update(Product p); void Delete(int id); } public interface ISalesRepository { IEnumerable<Sale> GetAll(); void Add(Sale s); } }

@@ -1,0 +1,1 @@
+using SalesInventoryApp.Models; namespace SalesInventoryApp.Factories { public static class ProductFactory { public static Product Create(string name, string sku, decimal price, int stock, int id) { return new Product { Id = id, Name = name, SKU = sku, Price = price, Stock = stock }; } } }

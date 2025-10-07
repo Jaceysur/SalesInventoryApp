@@ -1,0 +1,1 @@
+Open SalesInventoryApp.sln in Visual Studio 2022. Build and run. Login: admin/password
